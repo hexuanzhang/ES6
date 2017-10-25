@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Proxy performance</title>
+</head>
+<body>
+	<h1>performance</h1>
+	<h2>Performance measurements</h2>
+
+	<table>
+		<tr>
+			<td>Normal object</td>
+			<td id="object">...</td>
+		</tr>
+		<tr>
+			<td>No-op forwarding proxy</td>
+			<td id="noop">...</td>
+		</tr>
+		<tr>
+			<td>Handler using Reflect</td>
+			<td id="reflect">...</td>
+		</tr>
+		<tr>
+			<td>Proxy as dynamic handler</td>
+			<td id="dynamic">...</td>
+		</tr>
+	</table>
+	<script src="performance.js"></script>
+</body>
+</html>
